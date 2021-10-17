@@ -254,7 +254,7 @@ func GetTemperatureDataString(temperatureData dataModels.TemperatureData) string
 
 // TODO: maybe move HotendTemperatureIsTooLow into a hotend utils file?
 
-const MIN_HOTEND_TEMPERATURE = 150.0
+const MIN_HOTEND_TEMPERATURE = 110
 
 func HotendTemperatureIsTooLow(
 	temperatureData			dataModels.TemperatureData,
